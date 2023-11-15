@@ -1,0 +1,26 @@
+{
+  "name": "@ourlegup/test-r-server",
+  "version": "1.0.0",
+  "description": "Test R Server Versioning",
+  "main": "serve.R",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakil-ourlegup/test-r-server.git"
+  },
+  "keywords": [
+    "R",
+    "Server"
+  ],
+  "author": "@ourlegup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakil-ourlegup/test-r-server/issues"
+  },
+  "homepage": "https://github.com/shakil-ourlegup/test-r-server#readme",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}

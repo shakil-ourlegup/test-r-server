@@ -29,9 +29,8 @@ echo <- function(msg = "") {
 
 #* Plot a histogram
 #* @get /plot
-#* @png
+#* @serializer png
 function(){
     rand <- rnorm(100)
     hist(rand)
 }
-
