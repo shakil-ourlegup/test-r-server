@@ -1,10 +1,13 @@
 {
-  "name": "@ourlegup/test-r-server",
+  "name": "@shakil-ourlegup/test-r-server",
   "version": "1.0.0",
   "description": "Test R Server Versioning",
   "main": "serve.R",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "@shakil-ourlegup:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
